@@ -1,41 +1,249 @@
 * {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a {
+  font-family: Raleway !important;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
+}
 body {
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(217, 28%, 15%);
   color: hsl(0, 0%, 100%);
   line-height: 1.6em;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 12px;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-position: top 720px right 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
+  font-family: Raleway;
 }
 
 .container {
-  width: 92%;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px;
-}
-a {
-  text-decoration: none;
+  padding: 0px;
 }
 .header-class {
+  padding: 20px;
   display: flex;
 }
 .navbar {
   width: 100%;
   display: flex;
 }
+.logo {
+  padding: 35px;
+}
 nav ul {
+  width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
+  padding: 35px;
 }
 li {
   list-style: none;
-  padding-left: 15px;
-  align-items: flex-end;
+  padding-left: 35px;
+  font-family: Raleway;
+}
+.main-class {
+  padding: 0px;
+  margin: 0px;
+}
+.intro {
+  line-height: 1.2em;
+  align-content: center;
+  margin: auto;
+}
+
+.intro img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.writeup {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  line-height: 1.6rem;
+  width: 100%;
+  margin: auto;
+  font-family: Raleway;
+}
+.writeup h1 {
+  font-size: 2rem;
+  max-width: 35ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  line-height: 3rem;
+  font-family: Raleway;
+}
+.writeup p {
+  max-width: 52ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  width: 210px;
+  height: 45px;
+  padding: 15px;
+  color: #fff;
+  background: linear-gradient(35deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border-style: none;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.button:hover {
+  background: hsl(176, 68%, 64%);
+}
+.icons-div1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background: hsl(218, 28%, 13%);
+  padding: 3ch;
+  z-index: -1;
+}
+
+.eru {
+  max-width: 55ch;
+  margin: 3ch;
+}
+.access {
+  margin-top: 20ch;
+}
+.security {
+  margin-top: 18ch;
+}
+.typeof-file {
+  margin-top: 4ch;
+}
+.icons-div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5ch;
+  background: hsl(218, 28%, 13%);
+}
+.productive {
+  text-align: justify;
+  max-width: 37rem;
+  padding-left: 7ch;
+  padding-top: 9ch;
+  line-height: 1.9rem;
+}
+.productive h2 {
+  max-width: 16.8rem;
+}
+.productive a {
+  text-decoration: underline;
+}
+.productive a:hover {
+  background: hsl(176, 68%, 64%);
+}
+.quote {
+  background: hsl(218, 28%, 13%);
+}
+.quote img {
+  margin-left: 28ch;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  background: hsl(218, 28%, 13%);
+}
+.update {
+  max-width: 51ch;
+  padding: 3ch 3ch;
+  background-color: hsl(217, 28%, 15%);
+  margin: 3ch;
+}
+.profile {
+  display: flex;
+  background-color: hsl(217, 28%, 15%);
+}
+.profile-pix {
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 70px;
+}
+.profile-name {
+  line-height: 0.6rem;
+  margin-left: 2ch;
+  margin-top: 1ch;
+}
+.profile-name p {
+  font-size: 1.2rem;
+}
+
+.get-early {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 95ch;
+  margin-bottom: 20ch;
+  border-radius: 5ch;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+footer {
+  background-color: hsl(216, 53%, 9%);
 }
 
 .attribution {
